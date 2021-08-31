@@ -2,3 +2,6 @@
 A shell script to create hard links to multiple files in a directory
 
 __Usage:  sh main.sh $N $S $H__
+**$N = No. of Files to Create Hardlinks**
+**$S = Absolute Path to the Source Files**
+**$H = Absolute Path to create Hard links**
