@@ -7,5 +7,6 @@ Usage: `sh main.sh $N $S $H`
 * $S = Absolute Path to the Source File(s) Directory
 * $H = Absolute Path to create Hard link(s)
 
-**Note:** _This script only creates hardlinks based on the first `$N` files that appear on `ls $S`_
-**And all the paths must be absolute path and terminate with forward slash (/)**
+**Note:** 
+* _This script only creates hardlinks based on the first `$N` files that appear on `ls $S`_
+* _All the paths must be absolute paths terminating with a forward slash **( / )**_
