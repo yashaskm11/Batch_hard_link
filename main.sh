@@ -2,7 +2,6 @@
 # $0= No of Files to create Hardlinks
 # $1= Path to existing directory
 # $2= Path to create Hardlinks
-echo "$1 $2 $3"
 ls "$2" > list.txt
 j=`expr $1 + 1`
 i=1
