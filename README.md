@@ -8,3 +8,4 @@ Usage: `sh main.sh $N $S $H`
 * $H = Absolute Path to create Hard link(s)
 
 **Note:** _This script only creates hardlinks based on the first `$N` files that appear on `ls $S`_
+**And all the paths must be absolute path and terminate with forward slash (/)**
